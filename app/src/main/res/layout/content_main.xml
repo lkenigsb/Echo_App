@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:id="@+id/type_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/teal_700"
+        android:gravity="top|left"
+        android:text="@string/ready_to_type"
+        tools:ignore="RtlHardcoded"
+        />
+
+    <EditText
+        android:id="@+id/ready_to_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_ready_edit"
+        android:gravity="top|left"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/echo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top|left"
+        tools:ignore="RtlHardcoded"
+        android:hint="@string/hint_waiting_echo"
+        />
+
+</LinearLayout>

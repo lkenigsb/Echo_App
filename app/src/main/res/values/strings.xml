@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Echo App</string>
+    <string name="action_settings">Settings</string>
+    <string name="ready_to_type">Please type in text here</string>
+    <string name="fab_copy">Copy ></string>
+    <string name="hint_ready_edit">Ready to Tap On FAB</string>
+    <string name="hint_waiting_echo">Libby K\'s Attempt at Echo</string>
+
+
+</resources>
